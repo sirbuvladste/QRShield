@@ -1,0 +1,31 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# ── Credentials & secrets ─────────────────────────────────────────────────────
+# Real secrets file (copy of secrets.properties.example with actual values)
+local.properties
+secrets.properties
+
+# Android signing keystores — contain private keys, must never be committed
+*.jks
+*.keystore
+
+# Keystore config — often holds storePassword / keyPassword in plaintext
+keystore.properties
+signing.properties
+
+# Firebase / Google services — contain project IDs and API keys
+google-services.json
+GoogleService-Info.plist
